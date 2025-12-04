@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://especial-jazmin-unstrangely.ngrok-free.dev',
     headers: {
         'Content-Type': 'application/json',
     },
